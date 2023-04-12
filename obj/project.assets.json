@@ -10566,11 +10566,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\AfroLatino\\AfroLatino.csproj",
+      "projectUniqueName": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\AfroL\\AfroLatino\\AfroLatino.csproj",
       "projectName": "AfroLatino",
-      "projectPath": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\AfroLatino\\AfroLatino.csproj",
+      "projectPath": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\AfroL\\AfroLatino\\AfroLatino.csproj",
       "packagesPath": "C:\\Users\\CLAUDE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\AfroLatino\\obj\\",
+      "outputPath": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\AfroL\\AfroLatino\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10663,7 +10663,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

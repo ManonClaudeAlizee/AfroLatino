@@ -8,5 +8,6 @@ namespace AfroLatino.Models
         public string DescriptionCourte { get; set; } = null!;
         public string DescriptionLongue { get; set; } = null!;
         public string Lieu { get; set; } = null!;
+        public string? Image { get; set; } = null!;
     }
 }
