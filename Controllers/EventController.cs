@@ -87,7 +87,8 @@ public class EventController : Controller
         return RedirectToAction(nameof(Index));
     }
 
-    // GET: Movies/Edit/5
+    // GET: Event/Edit/5
+    [HttpGet]
     public async Task<IActionResult> Edit(int? id)
     {
         if (id == null)
@@ -104,8 +105,9 @@ public class EventController : Controller
     }
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Date,DescriptionCourte,DescriptionLongue,Lieu")] Event ev)
+    public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Date,DescriptionCourte,DescriptionLongue,Lieu")] Event ev, IFormFile? image)
     {
+
         if (id != ev.Id)
         {
             return NotFound();
@@ -115,6 +117,19 @@ public class EventController : Controller
         {
             try
             {
+                // handle file upload
+                if (image != null && image.Length > 0)
+                {
+                    var fileImageName = Path.GetFileName(image.FileName);
+                    var fileImagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images", fileImageName);
+
+                    using (var stream = new FileStream(fileImagePath, FileMode.Create))
+                    {
+                        await image.CopyToAsync(stream);
+                    }
+
+                    ev.Image = fileImageName;
+                }
                 _context.Update(ev);
                 await _context.SaveChangesAsync();
             }
