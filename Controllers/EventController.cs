@@ -36,7 +36,7 @@ public class EventController : Controller
     // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Create([Bind("Id,Title,Date,DescriptionCourte,DescriptionLongue,Lieu,Image")] Event ev, IFormFile image)
+    public async Task<IActionResult> Create([Bind("Id,Title,Date,DescriptionCourte,DescriptionLongue,Lieu")] Event ev, IFormFile image)
     {
         if (image != null && image.Length > 0)
         {
@@ -49,12 +49,11 @@ public class EventController : Controller
             }
 
             ev.Image = fileImageName;
-
-            // Create new event in DB
-            _context.Add(ev);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
         }
+        // Create new event in DB
+        _context.Add(ev);
+        await _context.SaveChangesAsync();
+        return RedirectToAction(nameof(Index));
 
         //redisplay form if failure
         return View(ev);

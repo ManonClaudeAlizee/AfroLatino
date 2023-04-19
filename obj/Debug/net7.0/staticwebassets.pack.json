@@ -13,8 +13,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\0.jpg",
+      "PackagePath": "staticwebassets\\images\\0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\Logo_ensc_2021.png",
+      "PackagePath": "staticwebassets\\images\\Logo_ensc_2021.png"
+    },
+    {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\bachata.png",
       "PackagePath": "staticwebassets\\images\\bachata.png"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\bb.png",
+      "PackagePath": "staticwebassets\\images\\bb.png"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\gifminion.jpg",
+      "PackagePath": "staticwebassets\\images\\gifminion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\grosse entreprise.png",
+      "PackagePath": "staticwebassets\\images\\grosse entreprise.png"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\jeanneb.png",
+      "PackagePath": "staticwebassets\\images\\jeanneb.png"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\loutre.png",
+      "PackagePath": "staticwebassets\\images\\loutre.png"
     },
     {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\js\\site.js",
@@ -247,6 +275,18 @@
     {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\5 Second CountDown Timer With Voice Sound Effect.mp4",
+      "PackagePath": "staticwebassets\\videos\\5 Second CountDown Timer With Voice Sound Effect.mp4"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\Female 5 Second Countdown With Voice Only.mp4",
+      "PackagePath": "staticwebassets\\videos\\Female 5 Second Countdown With Voice Only.mp4"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\video.mp4",
+      "PackagePath": "staticwebassets\\videos\\video.mp4"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AfroLatino.Microsoft.AspNetCore.StaticWebAssets.props",

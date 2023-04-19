@@ -1,0 +1,54 @@
+@model AfroLatino.Models.Video
+
+@{
+    ViewData["Title"] = "Création vidéo";
+    @* Event ev = (Event)ViewData["Event"]!; *@
+}
+
+<h2>Poster une nouvelle vidéo</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DatePublication" class="control-label"></label>
+                <input asp-for="DatePublication" class="form-control" />
+                <span asp-validation-for="DatePublication" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DescriptionCourte" class="control-label"></label>
+                <input asp-for="DescriptionCourte" class="form-control" />
+                <span asp-validation-for="DescriptionCourte" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Type" class="control-label"></label>
+                <input asp-for="Type" class="form-control" />
+                <span asp-validation-for="Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SourceVideo" class="control-label"></label>
+                <input asp-for="SourceVideo" class="form-control" type="file" name="SourceVideo" accept="video/mp4, video/webm, video/ogg" required/>
+                <span asp-validation-for="SourceVideo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-page-handler="Upload" type="submit" value="Ajouter une vidéo" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Retour aux évènements</a>
+</div>
+
+
+@section Scripts {
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
