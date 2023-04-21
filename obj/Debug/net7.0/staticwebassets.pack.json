@@ -45,6 +45,14 @@
       "PackagePath": "staticwebassets\\images\\loutre.png"
     },
     {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\plage-boucan.jpeg",
+      "PackagePath": "staticwebassets\\images\\plage-boucan.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\tielephant.png",
+      "PackagePath": "staticwebassets\\images\\tielephant.png"
+    },
+    {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -283,6 +291,26 @@
     {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\Female 5 Second Countdown With Voice Only.mp4",
       "PackagePath": "staticwebassets\\videos\\Female 5 Second Countdown With Voice Only.mp4"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\WIN_20230115_11_23_34_Pro.mp4",
+      "PackagePath": "staticwebassets\\videos\\WIN_20230115_11_23_34_Pro.mp4"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\WIN_20230115_11_24_03_Pro.mp4",
+      "PackagePath": "staticwebassets\\videos\\WIN_20230115_11_24_03_Pro.mp4"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\WIN_20230115_11_25_35_Pro.mp4",
+      "PackagePath": "staticwebassets\\videos\\WIN_20230115_11_25_35_Pro.mp4"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\WIN_20230115_11_29_59_Pro.mp4",
+      "PackagePath": "staticwebassets\\videos\\WIN_20230115_11_29_59_Pro.mp4"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\WIN_20230115_19_07_54_Pro.mp4",
+      "PackagePath": "staticwebassets\\videos\\WIN_20230115_19_07_54_Pro.mp4"
     },
     {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\video.mp4",

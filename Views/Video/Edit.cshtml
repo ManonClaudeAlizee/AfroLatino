@@ -1,0 +1,84 @@
+@model AfroLatino.Models.Video
+
+@{
+    ViewData["Title"] = "Modification vidéo";
+    @* Event ev = (Event)ViewData["Event"]!; *@
+}
+
+<h2>Modifier une vidéo</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"> Titre de la vidéo :</label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-d
+                anger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <label asp-for="DatePublication" class="control-label"> Date de publication : </label>
+                <input asp-for="DatePublication" class="form-control" />
+                <span asp-validation-for="DatePublication" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <label asp-for="DescriptionCourte" class="control-label"> Description courte de la vidéo :</label>
+                <input asp-for="DescriptionCourte" class="form-control" />
+                <span asp-validation-for="DescriptionCourte" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="form-group">
+                <label asp-for="Type" class="control-label">
+                    Catégorie de danse de la vidéo :
+                    <div>
+                    <input type="radio" id="bachata" name="Type" value="bachata" checked onclick="updateType(this)">
+                    <label for="bachata">Bachata</label>
+                    </div>
+                    <div>
+                    <input type="radio" id="kizomba" name="Type" value="kizomba" onclick="updateType(this)">
+                    <label for="kizomba">Kizomba</label>
+                    </div>
+                    <div>
+                    <input type="radio" id="salsaP" name="Type" value="salsaP" onclick="updateType(this)">
+                    <label for="salsaP">Salsa Portoricaine</label>
+                    </div>
+                    <div>
+                    <input type="radio" id="salsaC" name="Type" value="salsaC" onclick="updateType(this)">
+                    <label for="salsaC">Salsa Cubaine</label>
+                    </div>
+                    <script>
+                function updateType(radio) {
+                "Type" = radio.value;
+                }
+                </script>
+                </label>
+            </div>
+            <br/>
+            <div class="form-group">
+                <label asp-for="SourceVideo" class="control-label">Vidéo : </label>
+                <input asp-for="SourceVideo" class="form-control" type="file" name="SourceVideo" accept="video/mp4, video/webm, video/ogg" required/>
+                <span asp-validation-for="SourceVideo" class="text-danger"></span>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                    <input asp-page-handler="Upload" type="submit" value="Modifier une vidéo" class="btn btn-primary" />
+                    </div>
+                </div>
+                <div class = "col-6" align="right">
+                    <a asp-action="Index">Retour aux vidéos</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

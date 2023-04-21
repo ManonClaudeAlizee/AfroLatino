@@ -54,9 +54,6 @@ public class EventController : Controller
         _context.Add(ev);
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
-
-        //redisplay form if failure
-        return View(ev);
     }
 
     public async Task<IActionResult> Delete(int? id)

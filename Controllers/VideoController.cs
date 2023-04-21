@@ -55,8 +55,6 @@ public class VideoController : Controller
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));
 
-        //redisplay form if failure
-        return View(v);
     }
 
     public async Task<IActionResult> Delete(int? id)
@@ -104,7 +102,7 @@ public class VideoController : Controller
     }
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Edit(int id, [Bind("Id,Title,DatePublication,DescriptionCourte,Type")] Video v, IFormFile video)
+    public async Task<IActionResult> Edit(int id, [Bind("Id,Title,DatePublication,DescriptionCourte,Type")] Video v, IFormFile SourceVideo)
     {
 
         if (id != v.Id)
@@ -117,14 +115,14 @@ public class VideoController : Controller
             try
             {
                 // handle file upload
-                if (video != null && video.Length > 0)
+                if (SourceVideo != null && SourceVideo.Length > 0)
                 {
-                    var fileVideoName = Path.GetFileName(video.FileName);
+                    var fileVideoName = Path.GetFileName(SourceVideo.FileName);
                     var fileVideoPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\videos", fileVideoName);
 
                     using (var stream = new FileStream(fileVideoPath, FileMode.Create))
                     {
-                        await video.CopyToAsync(stream);
+                        await SourceVideo.CopyToAsync(stream);
                     }
 
                     v.SourceVideo = fileVideoName;
@@ -147,7 +145,6 @@ public class VideoController : Controller
         }
         return View(v);
     }
-
     private bool VideoExists(int id)
     {
         return _context.Videos.Any(v => v.Id == id);
