@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "F8ej7zAAMZZP4JXy4eR70hiZd07UHhr51SLrhxnEHwM=",
+  "Hash": "2bwH0HPjFpE5k/4YvzV+RHe26ixX50IfkkYCA69pfck=",
   "Source": "AfroLatino",
   "BasePath": "_content/AfroLatino",
   "Mode": "Default",
@@ -1239,6 +1239,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Logo_ensc_2021.png"
+    },
+    {
+      "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\logo.png",
+      "SourceId": "AfroLatino",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\",
+      "BasePath": "_content/AfroLatino",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\loutre.png",
