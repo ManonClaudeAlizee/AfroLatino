@@ -34,29 +34,29 @@
             <div class="form-group">
                 <label asp-for="Type" class="control-label">
                     Catégorie de danse de la vidéo :
-                    <div>
-                    <input type="radio" id="bachata" name="Type" value="bachata" checked onclick="updateType(this)">
-                    <label for="bachata">Bachata</label>
-                    </div>
-                    <div>
-                    <input type="radio" id="kizomba" name="Type" value="kizomba" onclick="updateType(this)">
-                    <label for="kizomba">Kizomba</label>
-                    </div>
-                    <div>
-                    <input type="radio" id="salsaP" name="Type" value="salsaP" onclick="updateType(this)">
-                    <label for="salsaP">Salsa Portoricaine</label>
-                    </div>
-                    <div>
-                    <input type="radio" id="salsaC" name="Type" value="salsaC" onclick="updateType(this)">
-                    <label for="salsaC">Salsa Cubaine</label>
-                    </div>
-                    <script>
-                function updateType(radio) {
-                "Type" = radio.value;
-                }
-                </script>
                 </label>
+                <div>
+                    <input type="radio" id="bachata" name="Type" value="bachata" @(Model.Type == "bachata" ? "checked" : "") onclick="updateType(this)">
+                    <label for="bachata">Bachata</label>
+                </div>
+                <div>
+                    <input type="radio" id="kizomba" name="Type" value="kizomba" @(Model.Type == "kizomba" ? "checked" : "") onclick="updateType(this)">
+                    <label for="kizomba">Kizomba</label>
+                </div>
+                <div>
+                    <input type="radio" id="salsaP" name="Type" value="salsaP" @(Model.Type == "salsaP" ? "checked" : "") onclick="updateType(this)">
+                    <label for="salsaP">Salsa Portoricaine</label>
+                </div>
+                <div>
+                    <input type="radio" id="salsaC" name="Type" value="salsaC" @(Model.Type == "salsaC" ? "checked" : "") onclick="updateType(this)">
+                    <label for="salsaC">Salsa Cubaine</label>
+                </div>
             </div>
+            <script>
+            function updateType(radio) {
+            "Type" = radio.value;
+            }
+            </script>
             <br/>
             <div class="form-group">
                 <label asp-for="SourceVideo" class="control-label">Vidéo : </label>

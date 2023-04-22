@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Cl20o0yhsEBFIvAThEZuGSQEH99LeIFrEwmQgW8snd4=",
+  "Hash": "F8ej7zAAMZZP4JXy4eR70hiZd07UHhr51SLrhxnEHwM=",
   "Source": "AfroLatino",
   "BasePath": "_content/AfroLatino",
   "Mode": "Default",
@@ -1156,6 +1156,23 @@
       "OriginalItemSpec": "wwwroot\\images\\bb.png"
     },
     {
+      "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\Beach-erosion-puts-European-seaside-holidays-at-risk_imagefullwide.jpg",
+      "SourceId": "AfroLatino",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\",
+      "BasePath": "_content/AfroLatino",
+      "RelativePath": "images/Beach-erosion-puts-European-seaside-holidays-at-risk_imagefullwide.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Beach-erosion-puts-European-seaside-holidays-at-risk_imagefullwide.jpg"
+    },
+    {
       "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\gifminion.jpg",
       "SourceId": "AfroLatino",
       "SourceType": "Discovered",
@@ -1241,6 +1258,23 @@
       "OriginalItemSpec": "wwwroot\\images\\loutre.png"
     },
     {
+      "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\mousse.gif",
+      "SourceId": "AfroLatino",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\",
+      "BasePath": "_content/AfroLatino",
+      "RelativePath": "images/mousse.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mousse.gif"
+    },
+    {
       "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\plage-boucan.jpeg",
       "SourceId": "AfroLatino",
       "SourceType": "Discovered",
@@ -1256,6 +1290,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\plage-boucan.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\tichat.png",
+      "SourceId": "AfroLatino",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\",
+      "BasePath": "_content/AfroLatino",
+      "RelativePath": "images/tichat.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tichat.png"
     },
     {
       "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\tielephant.png",
