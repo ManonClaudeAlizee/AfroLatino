@@ -6,10 +6,10 @@
 @if (SignInManager.IsSignedIn(User))
 {
     <div class="dropdown-divider"></div>
-    <li class="nav-item">
-        <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage" style="text-align:center;">Bienvenue @User.Identity?.Name</a>
+    <li class="nav-item" style="border-left: 1px solid black;">
+        <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage" style="text-align:center;"> Bienvenue @User.Identity?.Name</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item" style="border-right: 1px solid black;align-item:center;">
         <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
             <button  type="submit" class="nav-link btn btn-link text-dark">Deconnexion</button>
         </form>
@@ -18,11 +18,11 @@
 else
 {
     <div class="dropdown-divider"></div>
-    <li class="nav-item">
+    @* <li class="nav-item">
         <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Inscription</a>
-    </li>
+    </li> *@
     <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Connexion</a>
+        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login"> | Connexion | </a>
     </li>
 }
 </ul>

@@ -3,10 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - AfroLatino</title>
+    <title>@ViewData["Title"] | AfroLatino</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/AfroLatino.styles.css" asp-append-version="true" />
+    <link rel="icon" type="image/png" href="~/logoAfrique.ico"/>
 </head>
 <body>
     <header>
@@ -17,22 +18,22 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="navbar-collapse collapse d-sm-inline-flex ">
+                    <ul class="navbar-nav flex-grow-1 d-flex align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index" style="padding-right:20px;">Accueil</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index" style="padding-right:20px;text-align:center;">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Event" asp-action="Index" style="padding-right:20px;">Agenda</a>
+                            <a class="nav-link text-dark justify-content-center" asp-area="" asp-controller="Event" asp-action="Index" style="padding-right:20px;text-align:center;">Agenda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Tarifs" style="padding-right:20px;">Tarifs</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Tarifs" style="padding-right:20px;text-align:center;">Cours & Tarifs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Video" asp-action="Index" style="padding-right:20px;">Vidéos</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Video" asp-action="Index" style="padding-right:20px;text-align:center;">Vidéos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact" style="padding-right:20px;">Contact</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact" style="padding-right:20px;text-align:center;">Contact</a>
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
