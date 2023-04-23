@@ -19,7 +19,7 @@ public class VideoController : Controller
     public async Task<IActionResult> Index([FromQuery(Name = "typeDanse")] string typeDanse)
     {
         var videos = await _context.Videos.ToListAsync();
-        if (typeDanse != "all")
+        if (!string.IsNullOrEmpty(typeDanse) && typeDanse != "all")
         {
             videos = await _context.Videos.Where(v => v.Type == typeDanse)
                 // .Include(c => c.Department)
