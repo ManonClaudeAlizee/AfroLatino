@@ -4,7 +4,7 @@
     ViewData["Title"] = "Modifier évènement";
 }
 
-<h2>Modifier un évènement</h2>
+<h1>Modifier un évènement</h1>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -12,43 +12,50 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
-                <label asp-for="Title" class="control-label"></label>
+                <label asp-for="Title" class="control-label">Titre :</label>
                 <input asp-for="Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <label asp-for="Date" class="control-label"></label>
+                <label asp-for="Date" class="control-label">Date et heure :</label>
                 <input asp-for="Date" class="form-control" />
                 <span asp-validation-for="Date" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <label asp-for="Image" class="control-label"></label>
+                <label asp-for="Image" class="control-label">Image : </label>
                 <input asp-for="Image" class="form-control" type="file" name="Image" accept="image/png, image/jpeg, image/webp" />
             </div>
+            <br/>
             <div class="form-group">
-                <label asp-for="DescriptionCourte" class="control-label"></label>
+                <label asp-for="DescriptionCourte" class="control-label">Descritption courte de l'évènement : </label>
                 <input asp-for="DescriptionCourte" class="form-control" />
                 <span asp-validation-for="DescriptionCourte" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <label asp-for="DescriptionLongue" class="control-label"></label>
+                <label asp-for="DescriptionLongue" class="control-label">Description longue de l'évènement :</label>
                 <input asp-for="DescriptionLongue" class="form-control" />
                 <span asp-validation-for="DescriptionLongue" class="text-danger"></span>
             </div>
+            <br/>
             <div class="form-group">
-                <label asp-for="Lieu" class="control-label"></label>
+                <label asp-for="Lieu" class="control-label">Lieu : </label>
                 <input asp-for="Lieu" class="form-control" />
                 <span asp-validation-for="Lieu" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input asp-page-handler="Upload" type="submit" value="Modifier un évènement" class="btn btn-primary" />
+                <br/>
+                <input asp-page-handler="Upload" type="submit" value="Modifier un évènement" class="btn btn-danger" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <br/>
+    <a asp-action="Index"><button class="btn btn-danger">Retour à l'agenda</button></a>
 </div>
 
 @section Scripts {

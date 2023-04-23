@@ -1,11 +1,11 @@
 @model AfroLatino.Models.Video
 
 @{
-    ViewData["Title"] = "Création vidéo";
+    ViewData["Title"] = "Ajouter vidéo";
     @* Event ev = (Event)ViewData["Event"]!; *@
 }
 
-<h2>Poster une nouvelle vidéo</h2>
+<h1>Poster une nouvelle vidéo</h1>
 
 <hr />
 <div class="row">
@@ -63,20 +63,17 @@
                 <span asp-validation-for="SourceVideo" class="text-danger"></span>
             </div>
             <br/>
-            <div class="row">
-                <div class="col-6">
                     <div class="form-group">
-                    <input asp-page-handler="Upload" type="submit" value="Ajouter une vidéo" class="btn btn-primary" />
+                    <input asp-page-handler="Upload" type="submit" value="Ajouter une vidéo" class="btn btn-danger" />
                     </div>
-                </div>
-                <div class = "col-6" align="right">
-                    <a asp-action="Index">Retour aux évènements</a>
-                </div>
-            </div>
         </form>
     </div>
 </div>
 
+<div>
+    <br/>
+    <a asp-action="Index"><button class="btn btn-danger">Retour aux vidéos</button></a>
+</div>
 
 @section Scripts {
 @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

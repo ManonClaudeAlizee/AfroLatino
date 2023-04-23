@@ -18,12 +18,24 @@ public class EventController : Controller
     // GET: Event
     public async Task<IActionResult> Index()
     {
-        var events = await _context.Events
-            // .Include(c => c.Department)
-            // .OrderBy(c => c.Id)
-            .ToListAsync();
+        var events = await _context.Events.ToListAsync();
 
         return View(events);
+    }
+    public async Task<IActionResult> Details(int? id)
+    {
+        if (id == null)
+        {
+            return NotFound();
+        }
+
+        var ev = await _context.Events.FirstOrDefaultAsync(e => e.Id == id);
+        if (ev == null)
+        {
+            return NotFound();
+        }
+
+        return View(ev);
     }
 
     public IActionResult Create()

@@ -31,14 +31,7 @@ public class EventApiController : ControllerBase
     [HttpGet("{id}")]
     public async Task<ActionResult<Event>> GetEvent(int id)
     {
-        // Find student and related enrollments
-        // SingleAsync() throws an exception if no student is found (which is possible, depending on id)
-        // SingleOrDefaultAsync() is a safer choice here
         var ev = await _context.Events.FindAsync(id);
-        // .Where(s => s.Id == id)
-        // .Include(s => s.Enrollments)
-        //.SingleOrDefaultAsync();
-
         if (ev == null)
             return NotFound();
 

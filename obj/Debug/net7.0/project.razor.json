@@ -18780,6 +18780,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\Views\\Event\\Details.cshtml",
+      "TargetPath": "Views\\Event\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
       "FileKind": "mvc"

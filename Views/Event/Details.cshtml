@@ -1,0 +1,35 @@
+@model AfroLatino.Models.Event
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2 style="font-family:Brush Script MT;text-align:center;">@Html.DisplayFor(model => model.Title)</h2>
+<br/>
+
+<p><span style="text-decoration:underline;">Lieu :</span> &emsp; @Model.Lieu </p>
+<p><span style="text-decoration:underline;">Date :</span> &emsp; @Model.Date.ToString("dd/MM/yyyy")</p>
+<p><span style="text-decoration:underline;">Heure :</span> &emsp; @Model.Date.ToString("hh") h @Model.Date.ToString("mm")</p>
+<br/>
+<div class="row">
+    <div class="col-6">
+        @if (Model.Image != null)
+        {
+            <img src="~/images/@Model.Image" class="card-img-top" alt="image" style="width:100%;margin:10px;"/>
+        }
+        else 
+        {
+            <img src="~/images/imageDefaut.png" class="card-img-top" alt="image" style="width:100%;margin:10px;"/>
+        }
+    </div>
+    <div class="col-6">
+        <p>
+            @Model.DescriptionLongue
+        </p>
+    </div>
+</div>
+
+<br/>
+<div>
+    <button class="btn btn-danger" asp-action="Index">Retourner à l'agenda</button>
+</div>

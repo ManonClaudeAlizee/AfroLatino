@@ -127,7 +127,7 @@
             <li class="list-group-item">@item.Lieu</li>
         </ul>
         <div class="card-body" style="text-align:center;">
-            <a href="#" class="card-link">En savoir plus</a> &emsp; &emsp; &emsp;
+            <a asp-controller="Event" asp-action="Details" asp-route-id="@item.Id">En savoir plus</a> &emsp; &emsp; &emsp;
             @if (SignInManager.IsSignedIn(User))
                 {
                     

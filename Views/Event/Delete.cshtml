@@ -1,17 +1,20 @@
 @model AfroLatino.Models.Event
 
 @{
-    ViewData["Title"] = "Delete event";
+    ViewData["Title"] = "Supprimer un évènement";
 }
 
-<h2>Supprimer un évènement</h2>
+<h1>Supprimer un évènement</h1>
 
+<br/>
 <h4>Êtes-vous sûr ?</h4>
 <div>
     <hr />
+    <div class="row">
+        <div class="col-7">
     <dl class="row">
         <dt class="col-sm-3">
-            @Html.DisplayNameFor(model => model.Title)
+            Titre : 
         </dt>
         <dd class="col-sm-9">
             @Html.DisplayFor(model => model.Title)
@@ -19,16 +22,25 @@
     </dl>
     <dl class="row">
         <dt class="col-sm-3">
-            @Html.DisplayNameFor(model => model.Date)
+            Date et heure :
         </dt>
         <dd class="col-sm-9">
             @Html.DisplayFor(model => model.Date)
         </dd>
     </dl>
+    </div>
+    <div class="col-5">
+        @if (Model.Image != null)
+            {
+                <img src="~/images/@Model.Image" alt="image evenement" style="width:80%;margin-top:5px;"/>
+            }
+    </div>
+</div>
 
+<br/>
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Retour aux évènements</a>
+        <a asp-action="Index"><button class="btn btn-danger">Retour à l'agenda</button></a>
     </form>
 </div>
