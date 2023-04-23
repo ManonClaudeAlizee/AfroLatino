@@ -9,8 +9,8 @@
 <h1>Cours hebdomadaire</h1>
 <br/>
 
-<table class="table">
-    <tr>
+<table class="table" style="text-align:center;">
+    <tr class="table-warning">
     <th>
     </th>
     <th>
@@ -27,63 +27,63 @@
     </th>
     </tr>
     <tr>
-    <th>
+    <th class="table-warning">
         19h  - 20h
     </th>
     <td>
         Salsa <br/>
         niveau 1 et 2 <br/>
-        Floirac - M270
+                <a class="lieu" href="https://www.apmac.asso.fr/etablissement/m270-floirac/" target="_blank">Salle M270</a> Floirac
     </td>
     <td>
-        initiation Kizumba <br/>
+        initiation Kizomba <br/>
         niveau 2 <br/>
-        Mérignac - B11
+        <a class="lieu" href="https://www.facebook.com/B11laBodega/?locale=fr_FR" target="_blank">B11 La Bodega</a> Mérignac 
     </td>
     <td>
         initiation Salsa <br/>
         niveau 2 <br/>
-        Mérignac - B11
+        <a class="lieu" href="https://www.facebook.com/B11laBodega/?locale=fr_FR" target="_blank">B11 La Bodega</a> Mérignac 
     </td>
     <td>
         initiation Bachata <br/>
         niveau 2 <br/>
-        Mérignac - B11
+        <a class="lieu" href="https://www.facebook.com/B11laBodega/?locale=fr_FR" target="_blank">B11 La Bodega</a> Mérignac 
     </td>
     </td>
     <tr>
-    <th>
+    <th class="table-warning">
         20h  - 21h
     </th>
     <td>
         Bachata <br/>
         niveau 1 et 2 <br/>
-        Floirac - M270
+                <a class="lieu" href="https://www.apmac.asso.fr/etablissement/m270-floirac/" target="_blank">Salle M270</a> Floirac
     </td>
     <td>
-        initiation Kizumba <br/>
+        Initiation Kizomba <br/>
         niveau 1 <br/>
-        Mérignac - B11
+        <a class="lieu" href="https://www.facebook.com/B11laBodega/?locale=fr_FR" target="_blank">B11 La Bodega</a> Mérignac 
     </td>
     <td>
-        initiation Salsa <br/>
+        Initiation Salsa <br/>
         niveau 1 <br/>
-        Mérignac - B11
+        <a class="lieu" href="https://www.facebook.com/B11laBodega/?locale=fr_FR" target="_blank">B11 La Bodega</a> Mérignac 
     </td>
     <td>
-        initiation Bachata <br/>
+        Initiation Bachata <br/>
         niveau 1 <br/>
-        Mérignac - B11
+        <a class="lieu" href="https://www.facebook.com/B11laBodega/?locale=fr_FR" target="_blank">B11 La Bodega</a> Mérignac 
     </td>
     </tr>
     <tr>
-    <th>
+    <th class="table-warning">
         21h  - 22h
     </th>
     <td>
-        Kizumba <br/>
+        Kizomba <br/>
         niveau 1 et 2 <br/>
-        Floirac - M270
+        <a class="lieu" href="https://www.apmac.asso.fr/etablissement/m270-floirac/" target="_blank">Salle M270</a> Floirac
 
     </tr>
 </table>
@@ -98,65 +98,40 @@
         </svg></a>
 }
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Id)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Date)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DescriptionCourte)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Lieu)
-            </th>
-            <th>
-                Image
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Id)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Title)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Date)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DescriptionCourte)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Lieu)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Image)
-                    <img src="~/images/@item.Image" alt="image" height=50px/>
-                </td>
-                <td>
-                    @if (SignInManager.IsSignedIn(User))
-                    {
-                        <a asp-controller="Event" asp-action="Edit" asp-route-id="@item.Id"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
-                                <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
-                            </svg></a>
-                        
-                        <a asp-controller="Event" asp-action="Delete" asp-route-id="@item.Id"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16" style="color:rgba(255, 0, 0, 0.692);">
-                                <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"/>
-                            </svg></a>
-                    }
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+<div class="row  justify-content-center" style="align-item:start;">
+
+@foreach (var item in Model.OrderByDescending(e => e.Date))
+{
+    <div class="card" style="width: 25%;margin-left:20px;margin-top:20px;">
+        <img class="card-img-top" src="~/images/@item.Image" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">@item.Title</h5>
+            <p class="card-text">
+                @if (item.Date < DateTime.Today)
+                {
+                    <a style="font-size:11px;color:rgb(246,89,5);font-style:italic;">Passé &emsp;</a> 
+                }
+                @item.DescriptionCourte</p>
+        </div>
+        <ul class="list-group list-group-flush" style="text-align:right;">
+            <li class="list-group-item">@item.Date.ToString("dd/MM/yyyy")</li>
+            <li class="list-group-item">@item.Lieu</li>
+        </ul>
+        <div class="card-body" style="text-align:center;">
+            <a href="#" class="card-link">En savoir plus</a> &emsp; &emsp; &emsp;
+            @if (SignInManager.IsSignedIn(User))
+                {
+                    
+                    <a asp-controller="Event" asp-action="Edit" asp-route-id="@item.Id"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                    <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                    </svg></a>
+                    <a>&emsp;</a>
+                    <a asp-controller="Event" asp-action="Delete" asp-route-id="@item.Id"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16" style="color:rgba(255, 0, 0, 0.692);">
+                    <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"/>
+                    </svg></a>
+                }
+        </div>
+    </div>
+}
+
+</div>

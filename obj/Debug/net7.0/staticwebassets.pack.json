@@ -25,8 +25,20 @@
       "PackagePath": "staticwebassets\\images\\Logo_ensc_2021.png"
     },
     {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\afficheCoursParticuliers.jpg",
+      "PackagePath": "staticwebassets\\images\\afficheCoursParticuliers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\afficheGlobale.jpg",
+      "PackagePath": "staticwebassets\\images\\afficheGlobale.jpg"
+    },
+    {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\bachata.png",
       "PackagePath": "staticwebassets\\images\\bachata.png"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\banderole.png",
+      "PackagePath": "staticwebassets\\images\\banderole.png"
     },
     {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\bb.png",

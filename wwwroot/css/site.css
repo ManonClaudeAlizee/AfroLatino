@@ -22,6 +22,10 @@ h1 {
   font-size: xx-large;
 }
 
+.lieu {
+  color: rgb(246, 89, 5);
+}
+
 .danse {
   color: rgb(246, 89, 5);
   font-size: larger;

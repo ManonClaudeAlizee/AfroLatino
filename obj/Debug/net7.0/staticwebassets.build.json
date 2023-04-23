@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2bwH0HPjFpE5k/4YvzV+RHe26ixX50IfkkYCA69pfck=",
+  "Hash": "5eU1kiKqau7EQcwas2w96B2FqXUFOCpkOIIbqImO8uI=",
   "Source": "AfroLatino",
   "BasePath": "_content/AfroLatino",
   "Mode": "Default",
@@ -1122,6 +1122,40 @@
       "OriginalItemSpec": "wwwroot\\images\\0.jpg"
     },
     {
+      "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\afficheCoursParticuliers.jpg",
+      "SourceId": "AfroLatino",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\",
+      "BasePath": "_content/AfroLatino",
+      "RelativePath": "images/afficheCoursParticuliers.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\afficheCoursParticuliers.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\afficheGlobale.jpg",
+      "SourceId": "AfroLatino",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\",
+      "BasePath": "_content/AfroLatino",
+      "RelativePath": "images/afficheGlobale.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\afficheGlobale.jpg"
+    },
+    {
       "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\bachata.png",
       "SourceId": "AfroLatino",
       "SourceType": "Discovered",
@@ -1137,6 +1171,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\bachata.png"
+    },
+    {
+      "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\banderole.png",
+      "SourceId": "AfroLatino",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\",
+      "BasePath": "_content/AfroLatino",
+      "RelativePath": "images/banderole.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\banderole.png"
     },
     {
       "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\bb.png",
