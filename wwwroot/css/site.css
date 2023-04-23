@@ -8,6 +8,11 @@ html {
   }
 }
 
+td,
+th {
+  border: 1px solid black;
+}
+
 .card-title {
   font-family: "Brush Script MT";
   text-align: right;
@@ -47,4 +52,5 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: rgba(252, 242, 219, 0.21);
 }

@@ -7,50 +7,48 @@
 }
 
 <h1>Les vidéos</h1>
+
 <br>
+<p style="text-align:center;">Retrouvez ici toutes les vidéos pour découvrir ou revoir les passes de vos danses préférées !</p>
 <br>
 
-@* <select id="type">
+<form method="get" asp-action="Index" enctype="multipart/form-data">
+    <label for="typeDanse">Type de vidéo : </label>
+        <select name="typeDanse">
+        <option value="all">Toutes les vidéos</option>
         <option value="bachata">Bachata</option>
         <option value="kizomba">Kizomba</option>
         <option value="salsaP">Salsa Portoricaine</option>
         <option value="salsaC">Salsa Cubaine</option>
-</select>
-
-<script>
-    var selectElement = document.getElementById("type");
-    var selectedValue = selectElement.value;
-
-    function isGoodType(type)
-    {
-        return type == selectedValue;
-    }
-</script> *@
+        </select>
+        &emsp;
+        <button type=submit class="btn btn-outline-danger">Rechercher</button>
+</form>
 
 @if (SignInManager.IsSignedIn(User))
 {
-    <a asp-controller="Video" asp-action="Create"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+    <br/>
+    <a asp-controller="Video" asp-action="Create" style="text-decoration: none;color:black;"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16" style="color:rgb(206, 0, 0);">
             <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
-        </svg></a>
+        </svg>&ensp;Ajouter une vidéo </a>
 }
 
 <div class="row justify-content-center" style="margin-top:20px;">
     <hr/>
     @foreach (var item in Model.OrderBy(v => v.DatePublication))
     {
-        <div class="col-6">
-        <h3 style="color:rgb(246,89,5);">@item.Title</h3>
-        <p style="font-size:12px;font-style:italic;">Publiée le @item.DatePublication.ToString("dd/MM/yyyy")</p>
-        <br>
-        <p>@item.DescriptionCourte</p>
-        <br>
-        <p style="font-size:10px;">@item.Type</p>
-        </div>
-        <div class="col-6">
-            <video controls src="~/videos/@item.SourceVideo" width="100%" style="margin-bottom:20px;">à pas la vidéo</video>
-            <br>
-        </div>
-        
-        <hr/>
+            <div class="col-6">
+                <h3 style="color:rgb(246,89,5);">@item.Title</h3>
+                <p style="font-size:12px;font-style:italic;">Publiée le @item.DatePublication.ToString("dd/MM/yyyy")</p>
+                <br>
+                <p>@item.DescriptionCourte</p>
+                <br>
+                <p style="font-size:10px;">@item.Type</p>
+            </div>
+            <div class="col-6">
+                <video controls src="~/videos/@item.SourceVideo" width="100%" style="margin-bottom:20px;">à pas la vidéo</video>
+                <br>
+            </div>
+            <hr/>
     }
 </div>

@@ -6,11 +6,11 @@
     ViewData["Title"] = "Evenements";
 }
 
-<h1>Cours hebdomadaire</h1>
+<h1>Cours hebdomadaires</h1>
 <br/>
 
-<table class="table" style="text-align:center;">
-    <tr class="table-warning">
+<table class="table" style="text-align:center;border: 1px solid black;vertical-align:middle;">
+    <tr>
     <th>
     </th>
     <th>
@@ -27,7 +27,7 @@
     </th>
     </tr>
     <tr>
-    <th class="table-warning">
+    <th>
         19h  - 20h
     </th>
     <td>
@@ -52,13 +52,13 @@
     </td>
     </td>
     <tr>
-    <th class="table-warning">
+    <th>
         20h  - 21h
     </th>
     <td>
         Bachata <br/>
         niveau 1 et 2 <br/>
-                <a class="lieu" href="https://www.apmac.asso.fr/etablissement/m270-floirac/" target="_blank">Salle M270</a> Floirac
+        <a class="lieu" href="https://www.apmac.asso.fr/etablissement/m270-floirac/" target="_blank">Salle M270</a> Floirac
     </td>
     <td>
         Initiation Kizomba <br/>
@@ -77,7 +77,7 @@
     </td>
     </tr>
     <tr>
-    <th class="table-warning">
+    <th>
         21h  - 22h
     </th>
     <td>
@@ -88,22 +88,30 @@
     </tr>
 </table>
 
+<br/>
 <h1>Evenements</h1>
 <br/>
 
 @if (SignInManager.IsSignedIn(User))
 {
-    <a asp-controller="Event" asp-action="Create"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+    <a asp-controller="Event" asp-action="Create" style="text-decoration: none;color:black;"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16" style="color:rgb(206, 0, 0);">
             <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
-        </svg></a>
+        </svg>&ensp;Poster un évènement</a>
 }
 
 <div class="row  justify-content-center" style="align-item:start;">
 
 @foreach (var item in Model.OrderByDescending(e => e.Date))
 {
-    <div class="card" style="width: 25%;margin-left:20px;margin-top:20px;">
-        <img class="card-img-top" src="~/images/@item.Image" alt="Card image cap">
+    <div class="card" style="width: 29%;margin-left:20px;margin-top:20px;">
+        @if (item.Image != null)
+        {
+            <img class="card-img-top" src="~/images/@item.Image" alt="Card image cap" style="width:100%;margin-top:5px;">
+        }
+        else
+       {
+            <img class="card-img-top" src="~/images/imageDefaut.png" alt="Card image cap" style="width:100%;margin-top:5px;">
+       }
         <div class="card-body">
             <h5 class="card-title">@item.Title</h5>
             <p class="card-text">
@@ -115,6 +123,7 @@
         </div>
         <ul class="list-group list-group-flush" style="text-align:right;">
             <li class="list-group-item">@item.Date.ToString("dd/MM/yyyy")</li>
+            <li class="list-group-item">@item.Date.ToString("hh") h @item.Date.ToString("mm")</li>
             <li class="list-group-item">@item.Lieu</li>
         </ul>
         <div class="card-body" style="text-align:center;">
@@ -122,11 +131,11 @@
             @if (SignInManager.IsSignedIn(User))
                 {
                     
-                    <a asp-controller="Event" asp-action="Edit" asp-route-id="@item.Id"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                    <a asp-controller="Event" asp-action="Edit" asp-route-id="@item.Id"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16" style="color:black;">
                     <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
                     </svg></a>
                     <a>&emsp;</a>
-                    <a asp-controller="Event" asp-action="Delete" asp-route-id="@item.Id"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16" style="color:rgba(255, 0, 0, 0.692);">
+                    <a asp-controller="Event" asp-action="Delete" asp-route-id="@item.Id"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill" viewBox="0 0 16 16" style="color:rgb(206, 0, 0);">
                     <path d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z"/>
                     </svg></a>
                 }

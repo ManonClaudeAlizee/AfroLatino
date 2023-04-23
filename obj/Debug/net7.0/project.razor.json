@@ -18830,8 +18830,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\Views\\Home\\Contact.cshtml",
+      "TargetPath": "Views\\Home\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\Views\\Home\\Tarifs.cshtml",
+      "TargetPath": "Views\\Home\\Tarifs.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18842,11 +18852,6 @@
     {
       "FilePath": "c:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5eU1kiKqau7EQcwas2w96B2FqXUFOCpkOIIbqImO8uI=",
+  "Hash": "2D6j4ok7SJpuODVb0/2PTfTKh2atljMAnlXLtohSnyo=",
   "Source": "AfroLatino",
   "BasePath": "_content/AfroLatino",
   "Mode": "Default",
@@ -1156,6 +1156,23 @@
       "OriginalItemSpec": "wwwroot\\images\\afficheGlobale.jpg"
     },
     {
+      "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\bachata.jpg",
+      "SourceId": "AfroLatino",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\",
+      "BasePath": "_content/AfroLatino",
+      "RelativePath": "images/bachata.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bachata.jpg"
+    },
+    {
       "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\bachata.png",
       "SourceId": "AfroLatino",
       "SourceType": "Discovered",
@@ -1224,6 +1241,23 @@
       "OriginalItemSpec": "wwwroot\\images\\Beach-erosion-puts-European-seaside-holidays-at-risk_imagefullwide.jpg"
     },
     {
+      "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\danses.jpg",
+      "SourceId": "AfroLatino",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\",
+      "BasePath": "_content/AfroLatino",
+      "RelativePath": "images/danses.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\danses.jpg"
+    },
+    {
       "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\gifminion.jpg",
       "SourceId": "AfroLatino",
       "SourceType": "Discovered",
@@ -1258,6 +1292,23 @@
       "OriginalItemSpec": "wwwroot\\images\\grosse entreprise.png"
     },
     {
+      "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\imageDefaut.png",
+      "SourceId": "AfroLatino",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\",
+      "BasePath": "_content/AfroLatino",
+      "RelativePath": "images/imageDefaut.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\imageDefaut.png"
+    },
+    {
       "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\jeanneb.png",
       "SourceId": "AfroLatino",
       "SourceType": "Discovered",
@@ -1273,6 +1324,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\jeanneb.png"
+    },
+    {
+      "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\kizomba.jpg",
+      "SourceId": "AfroLatino",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\",
+      "BasePath": "_content/AfroLatino",
+      "RelativePath": "images/kizomba.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\kizomba.jpg"
     },
     {
       "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\Logo_ensc_2021.png",
@@ -1358,6 +1426,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\plage-boucan.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\salsaC.jpg",
+      "SourceId": "AfroLatino",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\",
+      "BasePath": "_content/AfroLatino",
+      "RelativePath": "images/salsaC.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\salsaC.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\salsaP.jpg",
+      "SourceId": "AfroLatino",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\",
+      "BasePath": "_content/AfroLatino",
+      "RelativePath": "images/salsaP.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\salsaP.jpg"
     },
     {
       "Identity": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\tichat.png",

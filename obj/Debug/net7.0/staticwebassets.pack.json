@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\images\\afficheGlobale.jpg"
     },
     {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\bachata.jpg",
+      "PackagePath": "staticwebassets\\images\\bachata.jpg"
+    },
+    {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\bachata.png",
       "PackagePath": "staticwebassets\\images\\bachata.png"
     },
@@ -45,6 +49,10 @@
       "PackagePath": "staticwebassets\\images\\bb.png"
     },
     {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\danses.jpg",
+      "PackagePath": "staticwebassets\\images\\danses.jpg"
+    },
+    {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\gifminion.jpg",
       "PackagePath": "staticwebassets\\images\\gifminion.jpg"
     },
@@ -53,8 +61,16 @@
       "PackagePath": "staticwebassets\\images\\grosse entreprise.png"
     },
     {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\imageDefaut.png",
+      "PackagePath": "staticwebassets\\images\\imageDefaut.png"
+    },
+    {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\jeanneb.png",
       "PackagePath": "staticwebassets\\images\\jeanneb.png"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\kizomba.jpg",
+      "PackagePath": "staticwebassets\\images\\kizomba.jpg"
     },
     {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\logo.png",
@@ -71,6 +87,14 @@
     {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\plage-boucan.jpeg",
       "PackagePath": "staticwebassets\\images\\plage-boucan.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\salsaC.jpg",
+      "PackagePath": "staticwebassets\\images\\salsaC.jpg"
+    },
+    {
+      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\salsaP.jpg",
+      "PackagePath": "staticwebassets\\images\\salsaP.jpg"
     },
     {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\tichat.png",

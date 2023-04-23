@@ -16,12 +16,16 @@ public class VideoController : Controller
     }
 
     // GET: Video
-    public async Task<IActionResult> Index()
+    public async Task<IActionResult> Index([FromQuery(Name = "typeDanse")] string typeDanse)
     {
-        var videos = await _context.Videos
-            // .Include(c => c.Department)
-            // .OrderBy(c => c.Id)
-            .ToListAsync();
+        var videos = await _context.Videos.ToListAsync();
+        if (typeDanse != "all")
+        {
+            videos = await _context.Videos.Where(v => v.Type == typeDanse)
+                // .Include(c => c.Department)
+                // .OrderBy(c => c.Id)
+                .ToListAsync();
+        }
 
         return View(videos);
     }
