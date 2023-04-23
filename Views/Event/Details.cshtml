@@ -22,7 +22,7 @@
             <img src="~/images/imageDefaut.png" class="card-img-top" alt="image" style="width:100%;margin:10px;"/>
         }
     </div>
-    <div class="col-6">
+    <div class="col-6 responsive">
         <p>
             @Model.DescriptionLongue
         </p>
@@ -31,5 +31,5 @@
 
 <br/>
 <div>
-    <button class="btn btn-danger" asp-action="Index">Retourner à l'agenda</button>
+    <a asp-action="Index"><button class="btn btn-danger">Retourner à l'agenda</button></a>
 </div>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d8ZnB8fQMigJJMf7KG1biNEfT8VTXVfLe/f0oCrdbeQCuddzSjlUfKMshfZPS4BjIGhtcV7Yc70p/EIl41kTcg==",
+  "dgSpecHash": "Yq9e43+koK9iDEd8AASQF4vp9mMDZjbq/mxSPNd1Mt5OO/Vu+v82OVDx3wAx/IcoY7QeKGpdjsIzk5JiUJEP+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\AfroLatino.csproj",
+  "projectFilePath": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\AfroLatinoEnd\\AfroLatino\\AfroLatino.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CLAUDE\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\CLAUDE\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.4\\microsoft.aspnetcore.cryptography.internal.7.0.4.nupkg.sha512",
