@@ -9,18 +9,6 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\0.jpg",
-      "PackagePath": "staticwebassets\\images\\0.jpg"
-    },
-    {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\Beach-erosion-puts-European-seaside-holidays-at-risk_imagefullwide.jpg",
-      "PackagePath": "staticwebassets\\images\\Beach-erosion-puts-European-seaside-holidays-at-risk_imagefullwide.jpg"
-    },
-    {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\Logo_ensc_2021.png",
-      "PackagePath": "staticwebassets\\images\\Logo_ensc_2021.png"
-    },
-    {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\afficheCoursParticuliers.jpg",
       "PackagePath": "staticwebassets\\images\\afficheCoursParticuliers.jpg"
     },
@@ -41,28 +29,12 @@
       "PackagePath": "staticwebassets\\images\\banderole.png"
     },
     {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\bb.png",
-      "PackagePath": "staticwebassets\\images\\bb.png"
-    },
-    {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\danses.jpg",
       "PackagePath": "staticwebassets\\images\\danses.jpg"
     },
     {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\gifminion.jpg",
-      "PackagePath": "staticwebassets\\images\\gifminion.jpg"
-    },
-    {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\grosse entreprise.png",
-      "PackagePath": "staticwebassets\\images\\grosse entreprise.png"
-    },
-    {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\imageDefaut.png",
       "PackagePath": "staticwebassets\\images\\imageDefaut.png"
-    },
-    {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\jeanneb.png",
-      "PackagePath": "staticwebassets\\images\\jeanneb.png"
     },
     {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\kizomba.jpg",
@@ -73,16 +45,8 @@
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\loutre.png",
-      "PackagePath": "staticwebassets\\images\\loutre.png"
-    },
-    {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\mousse.gif",
       "PackagePath": "staticwebassets\\images\\mousse.gif"
-    },
-    {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\plage-boucan.jpeg",
-      "PackagePath": "staticwebassets\\images\\plage-boucan.jpeg"
     },
     {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\salsaC.jpg",
@@ -91,14 +55,6 @@
     {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\salsaP.jpg",
       "PackagePath": "staticwebassets\\images\\salsaP.jpg"
-    },
-    {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\tichat.png",
-      "PackagePath": "staticwebassets\\images\\tichat.png"
-    },
-    {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\images\\tielephant.png",
-      "PackagePath": "staticwebassets\\images\\tielephant.png"
     },
     {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\js\\site.js",
@@ -335,38 +291,6 @@
     {
       "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\logoAfrique.ico",
       "PackagePath": "staticwebassets\\logoAfrique.ico"
-    },
-    {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\5 Second CountDown Timer With Voice Sound Effect.mp4",
-      "PackagePath": "staticwebassets\\videos\\5 Second CountDown Timer With Voice Sound Effect.mp4"
-    },
-    {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\Female 5 Second Countdown With Voice Only.mp4",
-      "PackagePath": "staticwebassets\\videos\\Female 5 Second Countdown With Voice Only.mp4"
-    },
-    {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\WIN_20230115_11_23_34_Pro.mp4",
-      "PackagePath": "staticwebassets\\videos\\WIN_20230115_11_23_34_Pro.mp4"
-    },
-    {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\WIN_20230115_11_24_03_Pro.mp4",
-      "PackagePath": "staticwebassets\\videos\\WIN_20230115_11_24_03_Pro.mp4"
-    },
-    {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\WIN_20230115_11_25_35_Pro.mp4",
-      "PackagePath": "staticwebassets\\videos\\WIN_20230115_11_25_35_Pro.mp4"
-    },
-    {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\WIN_20230115_11_29_59_Pro.mp4",
-      "PackagePath": "staticwebassets\\videos\\WIN_20230115_11_29_59_Pro.mp4"
-    },
-    {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\WIN_20230115_19_07_54_Pro.mp4",
-      "PackagePath": "staticwebassets\\videos\\WIN_20230115_19_07_54_Pro.mp4"
-    },
-    {
-      "Id": "C:\\Users\\CLAUDE\\OneDrive\\Bureau\\Afrolatino\\AfroLatino\\wwwroot\\videos\\video.mp4",
-      "PackagePath": "staticwebassets\\videos\\video.mp4"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.AfroLatino.Microsoft.AspNetCore.StaticWebAssets.props",
