@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/52404981-2476-446e-8e3e-7a9312597b44/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/afrolatinos",
+  "appService.deploySubpath": "bin\\Publish"
+}
