@@ -129,7 +129,7 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-5">
-                <a asp-controller="Event" asp-action="Details" asp-route-id="@item.Id">Détails</a> &emsp; &emsp; &emsp;
+                <a asp-controller="Event" asp-action="Details" asp-route-id="@item.Id" style="text-decoration:none; color:rgb(180,0,0);">Détails</a> &emsp; &emsp; &emsp;
                 </div>
                 <div class="col-7" style="text-align:right;">
                 @if (SignInManager.IsSignedIn(User))
