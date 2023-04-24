@@ -52,7 +52,6 @@ public class VideoController : Controller
                 await SourceVideo.CopyToAsync(stream1);
             }
             v.SourceVideo = fileVideoName;
-            Console.WriteLine(fileVideoName);
         }
         // Create new video in DB
         _context.Add(v);
